@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic);
+.container{
+  margin:0 auto;
+  width: 100%;
+  max-width:940px;
+}
+h1{
+  text-align:center;
+  font-family: 'Didact Gothic', sans-serif;
+}
+.button-onoff{
+  display:block;
+  margin:0 auto;
+  color:#fff;
+  border:1px solid #e5e5e5;
+  padding:.9em;
+  cursor:pointer;
+  box-shadow: 0 0 3px #a5a5a5;
+  transition: background .6s;
+}
+.button-onoff:hover{
+  box-shadow: inset 0px -3px 0px rgba(33, 33, 33, .5);
+}
+.button-onoff:active{
+  box-shadow: inset 0px 0px 3px rgba(33, 33, 33, .5);
+}
+.on{
+  background:#27ae60;
+}
+.off{
+  background:#e74c3c;
+}
+.progressbar{
+  width:100%;
+  height:20px;
+  margin-top: 20px;
+  border:1px solid #757575;
+  padding: .3em;
+  border-radius: 4px;
+}
+.progress{
+  color:#fff;
+  text-align:center;
+  border-radius:2px;
+  transition: width 3s .2s, text-indent 2s .3s;
+  height:100%;
+  background: #1abc9c;
+  width:0%;
+  text-indent: -999px;
+}
+.progress-100{
+  text-indent: 0px;
+  width:100%;
+}
+.aberto{
+  color:#27ae60;
+}

@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #f3f3f3;
+    font-family: Verdana,Geneva,sans-serif; 
+    font-size: 14px;
+  }
+  
+  .box-login {
+    max-width: 400px;
+    padding: 35px;
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow:  0 7px 30px -10px rgba(150,170,180,0.5);
+  }
+  .box-login .title {
+    margin-bottom: 30px;
+  }
+  .box-login .title h1 {
+    margin-bottom: 10px;
+  }
+  .box-login .itens {
+    margin-bottom: 15px;
+  }
+  .box-login .itens * {
+    display: block;
+    width: 100%;
+  }
+  .box-login .itens a {
+    text-align: center;
+  }
+  .box-login .itens label {
+    font-size: 12px;
+  }
+  .box-login .itens input[type="text"],
+  .box-login .itens input[type="password"] {
+    height: 40px;
+    border: 1px solid #f3f3f3;
+    border-radius: 3px;
+    padding: 0 15px;
+  }
+  .remenber {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 12px;
+  }
+  
+  .remenber input {
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  .submit {
+    height: 40px;
+    background: #000000;
+    color: #fff;
+    border: 0;
+    margin: 20px 0;
+    border-radius: 3px;
+    font-size: 16px;
+  }
